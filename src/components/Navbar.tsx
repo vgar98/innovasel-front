@@ -48,7 +48,7 @@ const Navbar: React.FC= () => {
                 {menuOpen && (
                     <div className="md:hidden bg-blue-600 text-white">
                     <ul className="space-y-4 py-4">
-                        <li><Link to="/" onClick={toggleMenu}>Salud</Link></li>
+                        <li><Link to="/" onClick={toggleMenu}>Inicio</Link></li>
                         <li><Link to="/services" onClick={toggleMenu}>Servicios</Link></li>
                         <li><Link to="/contact" onClick={toggleMenu}>Contáctanos</Link></li>
                         <li><Link to="/about" onClick={toggleMenu}>Sobre Nosotros</Link></li>
