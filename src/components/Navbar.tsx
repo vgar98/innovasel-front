@@ -16,7 +16,6 @@ const Navbar: React.FC= () => {
                     </div>
                     {/*MENU PARA PANTALLAS GRANDES */}
                     <ul className='hidden md:flex space-x-6 text-white'>
-                    <li><Link to="/commitment">Comprometidos</Link></li>
                     <li><Link to="/services">Servicios</Link></li>
                     <li><Link to="/contact">Contáctanos</Link></li>
                     <li><Link to="/about">Sobre Nosotros</Link></li>
@@ -50,11 +49,9 @@ const Navbar: React.FC= () => {
                     <div className="md:hidden bg-blue-600 text-white">
                     <ul className="space-y-4 py-4">
                         <li><Link to="/" onClick={toggleMenu}>Salud</Link></li>
-                        <li><Link to="/science" onClick={toggleMenu}>Ciencia</Link></li>
-                        <li><Link to="/commitment" onClick={toggleMenu}>Comprometidos</Link></li>
                         <li><Link to="/services" onClick={toggleMenu}>Servicios</Link></li>
-                        <li><Link to="/health" onClick={toggleMenu}>Noticias</Link></li>
                         <li><Link to="/contact" onClick={toggleMenu}>Contáctanos</Link></li>
+                        <li><Link to="/about" onClick={toggleMenu}>Sobre Nosotros</Link></li>
                     </ul>
                     </div>
                 )}
